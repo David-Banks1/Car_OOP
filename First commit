@@ -1,0 +1,58 @@
+public class Car {
+    private int tyres;
+    private int gears;
+    private int seats;
+    private String color;
+    private String model;
+    private int year;
+
+    public Car(int tyres, int gears, int seats, String color, String model, int year){
+        this.color = color;
+        this.gears = gears;
+        this.tyres = tyres;
+        this.model = model;
+        this.seats = seats;
+        this.year = year;
+    }
+
+    public void speed(){
+        System.out.println("The Car is speeding!");
+    }
+
+    public void accelerate(){
+        System.out.println("The Car is moving!");
+    }
+
+    public void brake(){
+        System.out.println("The Car stooped!");
+    }
+
+
+    public int getGears() {
+        return gears;
+    }
+
+    public int getTyres() {
+        return tyres;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
+
+    public int getYear() {
+        return year;
+    }
+
+
+    public String getColor() {
+        return color;
+    }
+
+
+    public String getModel() {
+        return model;
+    }
+
+}
